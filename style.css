@@ -1,0 +1,110 @@
+/* Add CSS here */
+.main{
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ff6798;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    background-color: #a44797;
+    flex-wrap: wrap;
+}
+
+.navigation a{
+    margin: 2rem;
+    color: #d688b7;
+    font-size: 1.5rem;
+}
+
+.navigation .active-menu{
+    color: white;
+    padding: 0rem 2rem;
+    border-radius: 2rem;
+    background-color: #993c8c;
+    box-sizing: border-box;
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border-top: 2px solid #ff6798;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 3rem;
+}
+
+.container-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* height: 200px; */
+    border: 2px solid #d3d7f5;
+    padding: 2rem 2rem 0.5rem 2rem;
+    align-items: center;
+}
+
+.container-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.item-title{
+    color: #7c85d0;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.item-content{
+    text-align:-webkit-center;
+}
+
+.item-btn{
+    display: flex;
+    align-items: left;
+    align-self:flex-end;
+    font-size: 1rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.item-btn:hover{
+    cursor: pointer;
+}
+
+.more-section{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#more-section-btn{
+    color: #7c85d0;
+}
+
+#more-section-btn:hover{
+    cursor: pointer;
+}
+
+#containerExtra{
+    display: none;
+}
+
+.container-extra{
+    display: none;
+}
+
+.active-container{
+    display: flex !important;
+}
